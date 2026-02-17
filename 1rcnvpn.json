@@ -1,0 +1,126 @@
+#profile-title: rcnvpn
+#profile-update-interval: 12
+#subscription-userinfo: total=0; expire=1771668258
+#support-url: https://t.me/rcnvpn
+#profile-web-page-url: https://t.me/rcnvpn
+
+{
+  "version": 4,
+  "sub": {
+    "name": "rcnvpn",
+    "userinfo": {
+      "total": 0,
+      "expire": 1771668258
+    }
+  },
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "rcnvpn — Автовыбор",
+      "server": "0ru84.tcpdoor.net",
+      "server_port": 443,
+      "uuid": "b6c0d594-5305-4a7a-8a15-e57bb4ec16e1",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "0ru84.tcpdoor.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0",
+          "short_id": "f135a2cf"
+        }
+      },
+      "multiplex": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "tcp"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "rcnvpn — Россия #29",
+      "server": "176.98.178.184",
+      "server_port": 443,
+      "uuid": "b6c0d594-5305-4a7a-8a15-e57bb4ec16e1",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "d-XqNbiYbaZbxNUrIoikQmrO4tnE_CByJ53pN-VT10I",
+          "short_id": "5bfd9219"
+        }
+      },
+      "multiplex": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "tcp"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "rcnvpn — Литва #6",
+      "server": "45.12.136.48",
+      "server_port": 443,
+      "uuid": "b6c0d594-5305-4a7a-8a15-e57bb4ec16e1",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "mirror.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "E-fIlniARgucl-Y8wctxQr4wPuDibRYnOCHCYAEVbws",
+          "short_id": "0cfdd64c"
+        }
+      },
+      "multiplex": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "tcp"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "rcnvpn — Германия #24",
+      "server": "de24.abvpn.ru",
+      "server_port": 443,
+      "uuid": "b6c0d594-5305-4a7a-8a15-e57bb4ec16e1",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "eKglVNr1vCmVZxLeGS6_-sZWXEJLWckuzkpmox1-jQ8",
+          "short_id": "4d6eefcb"
+        }
+      },
+      "multiplex": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "tcp"
+      }
+    }
+  ]
+}
